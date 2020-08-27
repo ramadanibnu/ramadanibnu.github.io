@@ -2,11 +2,11 @@
     margin: 0;
     padding: 20px;
     border: 1px solid #000000;
-    color: #ffffff;
+    color: white;
 }
 
 .header {
-    background: white;
+    background: grey;
     border: 1px solid #000000;
 
 
@@ -15,11 +15,12 @@
 .search{
     position: relative;
     top: 13px;
+    left: 800px;
     border-radius: 10px;
 }
 
 .hero {
-    border: 1px;
+    border: 10PX;
 
 
 }
@@ -31,7 +32,7 @@
 
 .sidebar {
     border: 1px solid #000000;
-    background: #673ab7;
+    background: grey;
     flex: 0 1 300px;
 }
 
@@ -48,14 +49,14 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: grey;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,12 +66,12 @@
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color:WHITE;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #ddd;
     color: white;
   }
   .center {
@@ -97,7 +98,7 @@
   .nav{
       text-decoration: none;
       list-style: none;
-      color: black;
+      color: white;
       background: white;
       border-radius: 10px;
       margin-bottom: 10px;
@@ -108,10 +109,14 @@
       left: 100px;
       text-decoration: none;
       text-align: center;
-      color: black;
+      color:white;
       font-weight: bold;
   }
 
   .content h1{
       font-size: 36px;
+  }
+
+  main{
+      background: linear-gradient(navy,red);
   }
